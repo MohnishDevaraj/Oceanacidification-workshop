@@ -112,7 +112,7 @@ heading {
 }
 
 #speaker {
-    top: 480%;
+    top: 475%;
     left: 50%;
     width: 800px;
 }
@@ -122,13 +122,14 @@ heading {
 }
 
 #details {
-    top: 560%;
+    top: 580%;
     left: 50%;
     width: 800px;
 }
 
 #details li {
     float: left;
+    list-style-type: none;
 }
 
 .left {
@@ -224,6 +225,16 @@ p a:hover {
     #speaker {
         top: 600%;
         width: 95%;
+    }
+
+    #details {
+        top: 725%;
+        width: 95%;
+        text-align: left;
+    }
+
+    #details h4 {
+        text-align: center;
     }
 
 
