@@ -1,0 +1,39 @@
+li{
+    float: left;
+}
+
+.blackbox {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+  }
+  
+  li {
+    float: right;
+  } 
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: font-size 0.3s ease;
+    line-height: 20px;
+  }
+  li a:hover {
+    background-color: #03A89E;
+    border-radius: 20px;
+    /* font-weight: bold; */
+  }
+ 
+body {
+    background: url("Image/slider-1.jpg") no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    height: 100vh;
+    overflow: hidden;
+    background-blend-mode: darken;
+}
