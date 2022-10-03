@@ -31,7 +31,13 @@ li a:hover {
 }
  
 body {
-    /* background: url("./Image/Oceanbg.png") no-repeat; */
+    /* background: url("./Image/sea-sunset.gif") no-repeat; */
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    /* clear: both; */
+    /* position: relative; */
+    background-image: cover;
     /* background-color: #03A89E !important; */
     margin: 0;
     padding: 0;
@@ -101,6 +107,10 @@ heading {
     font-size: 17px;
 }
 
+/* .head {
+    background: url("./Image/slider-2.jpg") no-repeat;
+} */
+
 #center3 {
     top: 290%;
     left: 50%;
@@ -130,6 +140,27 @@ heading {
 #details li {
     float: left;
     list-style-type: none;
+}
+
+#exp {
+    top: 650%;
+    left: 50%;
+}
+
+#reg {
+    top: 690%;
+    left: 50%;
+    background: linear-gradient(rgba(255, 255, 255, 0.760), rgba(255, 255, 255, 0.760)), url("./Image/registration.png") no-repeat;
+    background-size: cover;
+    /* clear: both; */
+    /* position: relative; */
+    /* background-image: cover; */
+}
+
+#pat {
+    top: 780%;
+    left: 50%;
+    width: 600px;
 }
 
 .left {
@@ -237,5 +268,25 @@ p a:hover {
         text-align: center;
     }
 
+    #exp {
+        top: 790%;
+        width: 95%;
+    }
 
+    #reg {
+        top: 840%;
+        width: 95%;
+    }
+
+    #pat {
+        top: 930%;
+        width: 95%;
+        float: left;
+    }
+
+    .prabhu {
+        text-align: left;
+        font-size: 15px;
+    }
 }
+
