@@ -97,7 +97,7 @@ heading {
     /* background-blend-mode: overlay; */
     background-position: center;
     background-size: cover;
-    z-index: -1;
+    /* z-index: -1; */
     /* clear: both; */
     /* position: relative; */
     background-image: cover;
@@ -114,11 +114,19 @@ heading {
 #center3 {
     top: 290%;
     left: 50%;
+    background: linear-gradient(rgba(255, 255, 255, 0.760), rgba(255, 255, 255, 0.760)), url("./Image/COEA.png");
+    background-position: center;
+    background-size: cover;
+    /* background-image: cover; */
 }
 
 #workshop {
     top: 375%;
     left: 50%;
+    background: linear-gradient(rgba(255, 255, 255, 0.760), rgba(255, 255, 255, 0.760)), url("./Image/oceanacid.png");
+    background-position: center;
+    background-size: cover;
+    background-image: cover;
 }
 
 #speaker {
@@ -204,6 +212,55 @@ p a:hover {
     border: 1px solid #03A89E;
     /* background: #03A89E; */
     /* text-align: center; */
+}
+
+#reggie {
+    background: linear-gradient(rgba(255, 255, 255, 0.23), rgba(255, 255, 255, 0.23)), url("./Speakers/Reggie.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: cover;
+}
+
+#valentina {
+    background: linear-gradient(rgba(255, 255, 255, 0.270), rgba(255, 255, 255, 0.270)), url("./Speakers/Valentina.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: cover;
+}
+
+#bhadury {
+    background: linear-gradient(rgba(255, 255, 255, 0.23), rgba(255, 255, 255, 0.23)), url("./Speakers/pbhadury.png") no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    background-image: cover;
+}
+
+#vinu {
+    background: linear-gradient(rgba(255, 255, 255, 0.23), rgba(255, 255, 255, 0.23)), url("./Speakers/Vinu-Valsala.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: cover;
+}
+
+#kun {
+    background: linear-gradient(rgba(255, 255, 255, 0.23), rgba(255, 255, 255, 0.23)), url("./Speakers/061.png") no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    background-image: cover;
+}
+
+#hai {
+    background: linear-gradient(rgba(255, 255, 255, 0.23), rgba(255, 255, 255, 0.23)), url("./Speakers/Hai.png") no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    background-image: cover;
+}
+
+#sath {
+    background: linear-gradient(rgba(255, 255, 255, 0.23), rgba(255, 255, 255, 0.23)), url("./Speakers/Sathsir.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: cover;
 }
 
 @media only screen and (max-width: 768px) {

@@ -15,6 +15,81 @@
                 <li><a href="home.html">Home</a></li>
             </ul>
     </header>
-    <h1>Register Page</h1>
+    <div style="margin-top: 60px;">
+        <div class="regform"><h1>Registration Form</h1></div>
+        <div class="main">
+            <form>
+                <div id="name">
+                    <h2 class="name">Name</h2>
+                    <input class="firstname" type="text" name="first_name"><br>
+                    <label class="firstlabel">First Name</label>
+                    <input class="lastname" type="text" name="last_name">
+                    <label class="lastlabel">Last Name</label>
+                </div>
+
+                <h2 class="name">Age</h2>
+                <input class="age" type="number" name="Age">
+                
+                <!-- <h2 class="name">Company</h2>
+                <input class="company" type="text" name="company"> -->
+
+                <h2 class="name">Gender</h2>
+                <select class="option" name="subject">
+                    <option disabled="disabled" selected="selected">Choose Option</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+
+                <h2 class="name">Designation</h2>
+                <input class="email" type="text" name="email">
+
+                <h2 class="name">Name of the Institute</h2>
+                <input class="noi" type="text" name="email">
+                
+                <h2 class="name">Mailing Address</h2>
+                <input class="mailing" type="text" name="email">
+
+                <h2 class="name">Mobile</h2>
+                <input class="code" type="text" name="area_code"  maxlenght="3" placeholder="Eg. +91">
+                <label class="area-code">Country Code</label>
+                <input class="number" type="number" name="phone">
+                <label class="phone-number">Phone Number</label>
+
+                <h2 class="name">Email</h2>
+                <input class="email" type="email" name="email">
+
+                <h2 class="name" >Highest Academic Qualification</h2>
+                <input class="haq" type="text" name="email">
+
+                <h2 class="name">Passport Number</h2>
+                <input class="posnum" type="email" name="email" maxlength="9" placeholder="(Only for International Students)">
+
+                <br>
+                <h1 class="payment">Payment Details</h1>
+                <br>
+
+                <h2 class="name">Registration Fee</h2>
+                <select class="option" name="subject">
+                    <option disabled="disabled" selected="selected">Choose Option</option>
+                    <option>Rs.2200/-</option>
+                    <option>Rs.2500/-</option>
+                    <!-- <option>Other</option> -->
+                </select>
+
+                <h2 class="name">
+                    DD/UPI/IMPS/NEFT
+                    <br>
+                    Reference Details
+                </h2>
+                <input class="ref" type="text" name="email">
+
+                <h2 class="name">Date of Payment</h2>
+                <input class="date" type="date" name="date">
+
+                <button class="onsub" type="submit">Register</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
