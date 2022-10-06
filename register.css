@@ -214,7 +214,7 @@ form{
 }
 
 .code {
-  position:relative;
+  /* position:relative;
   left:200px;
   top:-37px;
   line-height:40px;
@@ -222,14 +222,27 @@ form{
   border-radius:6px;
   padding:0 22px;
   font-size:16px;
-  color:#555;
-}		 
-.number {
+  color:#555; */
   position:relative;
-  left:180px;
+  left:200px;
   top:-37px;
   line-height:40px;
-  width:255px;
+  width:100px;
+  height:40px;
+  border-radius:6px;
+  padding:0 22px;
+  font-size:16px;
+  color:#555;
+  outline:none;
+  overflow:hidden;
+}		 
+
+.number {
+  position:relative;
+  left:140px;
+  top:-37px;
+  line-height:40px;
+  width:290px;
   border-radius:6px;
   padding:0 22px;
   font-size:16px;
@@ -241,7 +254,7 @@ form{
   color:#E5E5E5;
   text-transform:capiltalize;
   font-size:16px;
-  left:55px;
+  left:52px;
   top:-4px;
 }	 
 
@@ -250,7 +263,7 @@ form{
   color:#E5E5E5;
   text-transform:capiltalize;
   font-size:16px;
-  left:-125px;
+  left:-195px;
   top:-2px;
 }	
 

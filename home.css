@@ -130,7 +130,7 @@ heading {
 }
 
 #speaker {
-    top: 475%;
+    top: 510%;
     left: 50%;
     width: 800px;
 }
@@ -140,7 +140,7 @@ heading {
 }
 
 #details {
-    top: 580%;
+    top: 640%;
     left: 50%;
     width: 800px;
 }
@@ -151,12 +151,12 @@ heading {
 }
 
 #exp {
-    top: 650%;
+    top: 715%;
     left: 50%;
 }
 
 #reg {
-    top: 690%;
+    top: 760%;
     left: 50%;
     background: linear-gradient(rgba(255, 255, 255, 0.760), rgba(255, 255, 255, 0.760)), url("./Image/registration.png") no-repeat;
     background-size: cover;
@@ -166,7 +166,7 @@ heading {
 }
 
 #pat {
-    top: 780%;
+    top: 860%;
     left: 50%;
     width: 600px;
 }
@@ -214,7 +214,7 @@ p a:hover {
     /* text-align: center; */
 }
 
-#reggie {
+/* #reggie {
     background: linear-gradient(rgba(255, 255, 255, 0.23), rgba(255, 255, 255, 0.23)), url("./Speakers/Reggie.png") no-repeat;
     background-position: center;
     background-size: cover;
@@ -230,7 +230,6 @@ p a:hover {
 
 #bhadury {
     background: linear-gradient(rgba(255, 255, 255, 0.23), rgba(255, 255, 255, 0.23)), url("./Speakers/pbhadury.png") no-repeat;
-    /* background-position: center; */
     background-size: cover;
     background-image: cover;
 }
@@ -244,7 +243,6 @@ p a:hover {
 
 #kun {
     background: linear-gradient(rgba(255, 255, 255, 0.23), rgba(255, 255, 255, 0.23)), url("./Speakers/061.png") no-repeat;
-    /* background-position: center; */
     background-size: cover;
     background-image: cover;
 }
@@ -252,7 +250,6 @@ p a:hover {
 #hai {
     background: linear-gradient(rgba(255, 255, 255, 0.23), rgba(255, 255, 255, 0.23)), url("./Speakers/Hai.png") no-repeat;
     background-position: center;
-    /* background-size: cover; */
     background-image: cover;
 }
 
@@ -261,7 +258,7 @@ p a:hover {
     background-position: center;
     background-size: cover;
     background-image: cover;
-}
+} */
 
 @media only screen and (max-width: 768px) {
     img {
@@ -311,12 +308,12 @@ p a:hover {
     }
 
     #speaker {
-        top: 600%;
+        top: 735%;
         width: 95%;
     }
 
     #details {
-        top: 725%;
+        top: 1000%;
         width: 95%;
         text-align: left;
     }
@@ -326,17 +323,17 @@ p a:hover {
     }
 
     #exp {
-        top: 790%;
+        top: 1070%;
         width: 95%;
     }
 
     #reg {
-        top: 840%;
+        top: 1115%;
         width: 95%;
     }
 
     #pat {
-        top: 930%;
+        top: 1200%;
         width: 95%;
         float: left;
     }
@@ -344,6 +341,10 @@ p a:hover {
     .prabhu {
         text-align: left;
         font-size: 15px;
+    }
+
+    .img1 {
+        height: 165 !important;
     }
 }
 
