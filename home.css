@@ -38,7 +38,7 @@ body {
     /* clear: both; */
     /* position: relative; */
     background-image: cover;
-    /* background-color: #03A89E !important; */
+    /* background-color: lightblue !important; */
     margin: 0;
     padding: 0;
     font-family: cursive;
@@ -64,6 +64,10 @@ heading {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.con {
+    background-color: black;
 }
 
 .center{
@@ -153,6 +157,10 @@ heading {
 #exp {
     top: 715%;
     left: 50%;
+    background: linear-gradient(rgba(255, 255, 255, 0.760), rgba(255, 255, 255, 0.760)), url("./Image/part.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: cover;
 }
 
 #reg {
