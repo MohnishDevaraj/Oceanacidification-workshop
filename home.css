@@ -316,12 +316,12 @@ p a:hover {
     }
 
     #speaker {
-        top: 735%;
+        top: 745%;
         width: 95%;
     }
 
     #details {
-        top: 1000%;
+        top: 1025%;
         width: 95%;
         text-align: left;
     }
@@ -331,17 +331,17 @@ p a:hover {
     }
 
     #exp {
-        top: 1070%;
+        top: 1095%;
         width: 95%;
     }
 
     #reg {
-        top: 1115%;
+        top: 1145%;
         width: 95%;
     }
 
     #pat {
-        top: 1200%;
+        top: 1230%;
         width: 95%;
         float: left;
     }
