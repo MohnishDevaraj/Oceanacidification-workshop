@@ -24,20 +24,20 @@
             <form action="https://sheetdb.io/api/v1/t5tmaeru15i11" method="post" id="sheetdb-form"> 
                 <div id="name">
                     <h2 class="name">Name</h2>
-                    <input class="firstname" type="text" name="data[first_name]"><br>
+                    <input class="firstname" type="text" name="data[first_name]" required><br>
                     <label class="firstlabel">First Name</label>
-                    <input class="lastname" type="text" name="data[last_name]">
+                    <input class="lastname" type="text" name="data[last_name]" required>
                     <label class="lastlabel">Last Name</label>
                 </div>
 
                 <h2 class="name">Age</h2>
-                <input class="age" type="number" name="data[Age]">
+                <input class="age" type="number" name="data[Age]" required>
                 
                 <!-- <h2 class="name">Company</h2>
                 <input class="company" type="text" name="company"> -->
 
                 <h2 class="name">Gender</h2>
-                <select class="option" name="data[Gender]">
+                <select class="option" name="data[Gender]" required>
                     <option disabled="disabled" selected="selected">Choose Option</option>
                     <option>Male</option>
                     <option>Female</option>
@@ -45,17 +45,17 @@
                 </select>
 
                 <h2 class="name">Designation</h2>
-                <input class="email" type="text" name="data[designation]">
+                <input class="email" type="text" name="data[designation]" required>
 
                 <h2 class="name">Name of the Institute</h2>
-                <input class="noi" type="text" name="data[Name_of_the_Institute]">
+                <input class="noi" type="text" name="data[Name_of_the_Institute]" required>
                 
                 <h2 class="name">Mailing Address</h2>
-                <input class="mailing" type="text" name="data[Address]">
+                <input class="mailing" type="text" name="data[Address]" required>
 
                 <h2 class="name">Mobile</h2>
                 <!-- <input class="code" type="tel" name="area_code" placeholder="Eg. +91"> -->
-                <input class="code" list="browsers" name="data[browsers]">
+                <input class="code" list="browsers" name="data[browsers]" required>
                 <datalist class="code" name="area_code" id="browsers">
                     <option disabled="disabled" selected="selected">Eg. +91</option>
                     <option>+93</option>
@@ -298,26 +298,43 @@
                     <option>+263</option>
                 </datalist>
                 <label class="area-code" >Country Code</label>
-                <input class="number" type="tel" id="phone" name="data[phone]">
+                <input class="number" type="tel" id="phone" name="data[phone]" required>
                 <label class="phone-number">Phone Number</label>
 
                 <div class="alert alert-info" style="display: none;"></div>
 
                 <h2 class="name">Email</h2>
-                <input class="email" type="email" name="data[email]">
+                <input class="email" type="email" name="data[email]" required>
 
                 <h2 class="name" >Highest Academic Qualification</h2>
-                <input class="haq" type="text" name="data[qualification]">
+                <input class="haq" type="text" name="data[qualification]" required>
 
                 <h2 class="name">Passport Number</h2>
-                <input class="posnum" type="email" name="data[passport]" maxlength="9" placeholder="(Only for International Students)">
+                <input class="posnum" type="text" name="data[passport]" maxlength="9" placeholder="(Only for International Students)">
 
                 <br>
                 <h1 class="payment">Payment Details</h1>
                 <br>
 
+                <p class="pay">
+                    A/C: 6569293542
+                    <br>
+                    IFSC: IDIB000S201, Indian Bank
+                    <br>
+                    Branch: Sathyabama University, Chennai
+                    <br>
+                    Name: Director Research
+                    <br>
+                    <br>
+                    For Students & Ph.D scholars (Proof Required): <strong>Rs.250/-</strong>
+                    <br>
+                    Scientist / Faculty / Post-Docs: <strong>Rs.500/-</strong>
+                    <br>
+                    Central / State / NGO / Industry: <strong>1000/-</strong>
+                </p>
+
                 <h2 class="name">Registration Fee</h2>
-                <select class="option" name="data[fee]">
+                <select class="option" name="data[fee]" required>
                     <option disabled="disabled" selected="selected">Choose Option</option>
                     <option>Rs.250/-</option>
                     <option>Rs.500/-</option>
@@ -330,12 +347,12 @@
                     <br>
                     Reference Details
                 </h2>
-                <input class="ref" type="text" name="data[payment_details]">
+                <input class="ref" type="text" name="data[payment_details]" required>
 
                 <h2 class="name">Date of Payment</h2>
-                <input class="date" type="date" name="data[date]">
-
-                <button class="onsub" type="submit">Register</button>
+                <input class="date" type="date" name="data[date]" required>
+                
+                <button class="btn" type="submit" onclick="openPopup()">Register</button>
             </form>
         </div>
     </div>
@@ -350,8 +367,8 @@
           response => response.json()
       ).then((html) => {
         // you can put any JS code here
-        window.open('home.html', '_blank');
-
+        // window.open('page2.html', '_blank');
+        ;
       });
     });
     </script> 
