@@ -1,0 +1,116 @@
+li{
+    float: left;
+}
+
+.blackbox {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+  }
+  
+li {
+  float: right;
+} 
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: font-size 0.9s ease;
+  line-height: 20px;
+  display: block;
+}
+li a:hover {
+  border-radius: 20px;
+  /* font-weight: bold; */
+  background-color: #03A89E;
+}
+ 
+body {
+  font-family: cursive;
+  /* height: 100vh; */
+  /* overflow: hidden; */
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.regform {
+  width:800px;
+  background-color:rgb(0,0,0,0.6);
+  margin:auto;
+  color:#FFFFFF;
+  padding:10px 0px 10px 0px;
+  text-align:center;
+  border-radius:15px 15px 0px 0px;
+  }
+
+.main{
+  background-color:rgb(0,0,0,0.6);
+  width:800px;
+  padding: 10px 0px 10px 0px;
+  margin:auto;
+}
+
+form{
+  padding:10px;
+}
+
+
+
+html, body {
+    min-height: 100%;
+    }
+    body, div, form, input, label { 
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    color: #666;
+    line-height: 22px;
+    }
+    h1 {
+    position: absolute;
+    margin: 0;
+    font-size: 38px;
+    color: #fff;
+    z-index: 2;
+    }
+    .testbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 20px;
+    }
+    form {
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 0 20px 0  #03A89E; 
+    }
+  .banner {
+    background-color: #03A89E;
+    border-radius: 15px;
+    position: relative;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+  .banner::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0); 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    }
+  
