@@ -364,7 +364,7 @@ p a:hover {
         width: 100% !important;
     }
     #center1 {
-        width: 390px;
+        width: 95%;
         left: 50%;
         top: 160%;
     }
@@ -386,18 +386,18 @@ p a:hover {
     }
 
     #center2 {
-        top: 210%;
-        width: 380px;
+        top: 290%;
+        width: 95%;
         background-size: cover;
     }
 
     #center3 {
-        top: 330%;
-        width: 380px;
+        top: 450%;
+        width: 95%;
     }
 
     #workshop {
-        top: 450%;
+        top: 600%;
         width: 95%;
     }
 
@@ -406,12 +406,12 @@ p a:hover {
     }
 
     #speaker {
-        top: 745%;
+        top: 970%;
         width: 95%;
     }
 
     #details {
-        top: 1025%;
+        top: 1310%;
         width: 95%;
         text-align: left;
     }
@@ -421,17 +421,105 @@ p a:hover {
     }
 
     #exp {
-        top: 1095%;
+        top: 1390%;
         width: 95%;
     }
 
     #reg {
-        top: 1145%;
+        top: 1445%;
         width: 95%;
     }
 
     #pat {
-        top: 1250%;
+        top: 1570%;
+        width: 95%;
+        float: left;
+    }
+
+    .prabhu {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .img1 {
+        height: 165 !important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    img {
+        /* height: 200px; */
+        width: 100% !important;
+    }
+    #center1 {
+        width: 95%;
+        left: 50%;
+        top: 140%;
+    }
+
+    .left {
+        width: 50%;
+        margin-left: 1px;
+        font-size: 14px;
+    }
+
+    .right {
+        width: 50%; 
+        margin-left: 0.1rem;
+        font-size: 14px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    #center2 {
+        top: 250%;
+        width: 95%;
+        background-size: cover;
+    }
+
+    #center3 {
+        top: 380%;
+        width: 95%;
+    }
+
+    #workshop {
+        top: 500%;
+        width: 95%;
+    }
+
+    .topics li {
+        text-align: left !important;
+    }
+
+    #speaker {
+        top: 710%;
+        width: 95%;
+    }
+
+    #details {
+        top: 910%;
+        width: 95%;
+        text-align: left;
+    }
+
+    #details h4 {
+        text-align: center;
+    }
+
+    #exp {
+        top: 980%;
+        width: 95%;
+    }
+
+    #reg {
+        top: 1020%;
+        width: 95%;
+    }
+
+    #pat {
+        top: 1130%;
         width: 95%;
         float: left;
     }
@@ -452,9 +540,9 @@ p a:hover {
         width: 100% !important;
     }
     #center1 {
-        width: 390px;
+        width: 95%;
         left: 50%;
-        top: 110%;
+        top: 180%;
     }
 
     .left {
@@ -474,18 +562,18 @@ p a:hover {
     }
 
     #center2 {
-        top: 210%;
-        width: 380px;
+        top: 270%;
+        width: 95%;
         background-size: cover;
     }
 
     #center3 {
-        top: 330%;
-        width: 380px;
+        top: 380%;
+        width: 95%;
     }
 
     #workshop {
-        top: 450%;
+        top: 470%;
         width: 95%;
     }
 
@@ -494,12 +582,12 @@ p a:hover {
     }
 
     #speaker {
-        top: 745%;
+        top: 630%;
         width: 95%;
     }
 
     #details {
-        top: 1025%;
+        top: 800%;
         width: 95%;
         text-align: left;
     }
@@ -509,17 +597,17 @@ p a:hover {
     }
 
     #exp {
-        top: 1095%;
+        top: 890%;
         width: 95%;
     }
 
     #reg {
-        top: 1145%;
+        top: 950%;
         width: 95%;
     }
 
     #pat {
-        top: 1250%;
+        top: 1090%;
         width: 95%;
         float: left;
     }
@@ -541,9 +629,9 @@ p a:hover {
         width: 100% !important;
     }
     #center1 {
-        width: 390px;
+        width: 95%;
         left: 50%;
-        top: 110%;
+        top: 150%;
     }
 
     .left {
@@ -563,18 +651,18 @@ p a:hover {
     }
 
     #center2 {
-        top: 210%;
-        width: 380px;
+        top: 220%;
+        width: 95%;
         background-size: cover;
     }
 
     #center3 {
-        top: 330%;
-        width: 380px;
+        top: 300%;
+        width: 95%;
     }
 
     #workshop {
-        top: 450%;
+        top: 380%;
         width: 95%;
     }
 
@@ -583,12 +671,12 @@ p a:hover {
     }
 
     #speaker {
-        top: 745%;
+        top: 500%;
         width: 95%;
     }
 
     #details {
-        top: 1025%;
+        top: 620%;
         width: 95%;
         text-align: left;
     }
@@ -598,17 +686,17 @@ p a:hover {
     }
 
     #exp {
-        top: 1095%;
+        top: 690%;
         width: 95%;
     }
 
     #reg {
-        top: 1145%;
+        top: 730%;
         width: 95%;
     }
 
     #pat {
-        top: 1250%;
+        top: 830%;
         width: 95%;
         float: left;
     }
