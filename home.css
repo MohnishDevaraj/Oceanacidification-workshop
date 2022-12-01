@@ -67,11 +67,43 @@ heading {
     width: 50%;
 }
 
+.berna {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 65%;
+}
+
+.rao {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 65%;
+}
+
+.raj {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 33.5%;
+}
+
 
 .imglog {
     display: block;
     width: 5%;
     padding-left: 5px; 
+}
+
+.logo {
+    /* display: block; */
+    width: 7%;
+    height: 7%;
+    /* size: 110% !important; */
+    /* padding-left: 35px;  */
 }
 
 .center{
@@ -95,7 +127,7 @@ heading {
 }
 
 #center1 {
-    top: 436%;
+    top: 520%;
     left: 77%;
     width: 40%;
 }
@@ -130,6 +162,10 @@ heading {
     font-size: 17px;
 }
 
+.cathe {
+    padding-top: 2px;
+}
+
 #patrons {
     top: 255%;
     left: 50%;
@@ -142,8 +178,8 @@ heading {
 
 #center3 {
     top: 435%;
-    left: 30%;
-    width: 50%;
+    left: 50%;
+    /* width: 50%; */
     background: linear-gradient(rgba(255, 255, 255, 0.760), rgba(255, 255, 255, 0.760)), url("./Image/COEA.png");
     background-position: center;
     background-size: cover;
@@ -152,7 +188,8 @@ heading {
 
 #workshop {
     top: 520%;
-    left: 50%;
+    left: 30%;
+    width: 50%;
     background: linear-gradient(rgba(255, 255, 255, 0.760), rgba(255, 255, 255, 0.760)), url("./Image/oceanacid.png");
     background-position: center;
     background-size: cover;
@@ -231,8 +268,9 @@ i {
 }
 
 .left {
-    display: inline-block;
+    /* display: inline-block; */
     border: 1px solid #03A89E;
+    justify-content: space-between;
     padding: 1rem 1rem;
     width: 80%;
     /* margin-left: 10px; */
@@ -249,7 +287,7 @@ i {
 }
 
 .right {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     width: 80%;
     margin-left: 2rem;
     display: inline-block;
