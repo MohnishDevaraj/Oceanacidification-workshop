@@ -268,10 +268,6 @@ heading {
     /* padding-left: 19px; */
 }
 
-.org {
-    /* float: left !important; */
-}
-
 #some p{
     float: left !important;
 }
@@ -722,14 +718,53 @@ p a:hover {
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+    .imglog {
+        width: 10% !important;
+    }
+    
     img {
         /* height: 200px; */
         width: 100% !important;
     }
+    
+    .down {
+        width: 10% !important;
+    }
+
+    .spon {
+        padding-right: 0%;
+    }
+
+    .head {
+        padding-left: 5% !important;
+    }
+
+    .workshop {
+        padding-left: 60%;
+    }
+
+    .logo {
+        width: 25% !important; 
+        padding-right: 5% !important;
+    }
+
+    #centerpat {
+        width: 95%;
+        top: 335%;
+        left: 50%;
+        height: 210%;
+    }
+    
     #center1 {
         width: 95%;
-        left: 50%;
-        top: 140%;
+        left: 52%;
+        top: 1000% !important;
+    }
+
+    #center0 {
+        top: 1000%;
+        left: 53% !important;
+        width: 95%;
     }
 
     .left {
@@ -749,19 +784,34 @@ p a:hover {
     }
 
     #center2 {
-        top: 250%;
-        width: 95%;
+        top: 170% !important;
+        width: 100%;
+        left: 50%;
         background-size: cover;
     }
 
-    #center3 {
-        top: 380%;
+    #patrons {
+        top: 530%;
         width: 95%;
+        left: 50%;
+    }
+
+    #center3 {
+        top: 1005% !important;
+        width: 100%;
+        left: 53%;
+    }
+
+    #center0 {
+        top: 695%;
+        width: 95%;
+        left: 50% !important;
     }
 
     #workshop {
-        top: 500%;
-        width: 95%;
+        top: 1000% !important;
+        width: 100%;
+        left: 52%;
     }
 
     .topics li {
@@ -769,14 +819,21 @@ p a:hover {
     }
 
     #speaker {
-        top: 710%;
+        top: 1255% !important;
+        width: 100%;
+        left: 52%;
+    }
+
+    #expout {
+        top: 1650%;
         width: 95%;
     }
 
     #details {
-        top: 910%;
+        top: 1500%;
         width: 95%;
-        text-align: left;
+        text-align: left !important; 
+        left: 53%;
     }
 
     #details h4 {
@@ -784,19 +841,20 @@ p a:hover {
     }
 
     #exp {
-        top: 980%;
+        top: 1590%;
         width: 95%;
     }
 
     #reg {
-        top: 1020%;
+        top: 1700%;
         width: 95%;
     }
 
     #pat {
-        top: 1130%;
+        top: 1820%;
         width: 95%;
-        float: left;
+        /* float: left; */
+        left: 53%;
     }
 
     .org {
@@ -806,6 +864,35 @@ p a:hover {
 
     .img1 {
         height: 165 !important;
+    }
+
+    #center10 {
+        top: 1960%;
+        width: 95%;
+        left: 52%;
+    }
+
+    #reach {
+        top: 2010%;
+        width: 95%;
+        left: 52%;
+    }
+
+    .berna {
+        display: block;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        width: 50%;
+        height: 77%;
+    }
+
+    .local h4{
+        padding-top: 50%;
+    }
+
+    .adv {
+        float: left;
+        padding-left: 0%;
     }
 }
 
