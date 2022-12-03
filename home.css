@@ -726,6 +726,11 @@ p a:hover {
         /* height: 200px; */
         width: 100% !important;
     }
+
+    .raj {
+        height: 58.6%;
+        padding: 1px 1px;
+    }
     
     .down {
         width: 10% !important;
@@ -758,7 +763,7 @@ p a:hover {
     #center1 {
         width: 95%;
         left: 52%;
-        top: 1000% !important;
+        top: 950% !important;
     }
 
     #center0 {
@@ -797,21 +802,21 @@ p a:hover {
     }
 
     #center3 {
-        top: 1005% !important;
+        top: 840% !important;
         width: 100%;
-        left: 53%;
+        left: 50%;
     }
 
     #center0 {
-        top: 695%;
+        top: 700%;
         width: 95%;
         left: 50% !important;
     }
 
     #workshop {
-        top: 1000% !important;
-        width: 100%;
-        left: 52%;
+        top: 1060% !important;
+        width: 95%;
+        left: 50%;
     }
 
     .topics li {
@@ -819,21 +824,21 @@ p a:hover {
     }
 
     #speaker {
-        top: 1255% !important;
+        top: 1235% !important;
         width: 100%;
-        left: 52%;
+        left: 50%;
     }
 
     #expout {
-        top: 1650%;
+        top: 1550%;
         width: 95%;
     }
 
     #details {
-        top: 1500%;
+        top: 1420% !important;
         width: 95%;
         text-align: left !important; 
-        left: 53%;
+        left: 50%;
     }
 
     #details h4 {
@@ -841,20 +846,20 @@ p a:hover {
     }
 
     #exp {
-        top: 1590%;
+        top: 1500% !important;
         width: 95%;
     }
 
     #reg {
-        top: 1700%;
+        top: 1600% !important;
         width: 95%;
     }
 
     #pat {
-        top: 1820%;
+        top: 1710% !important;
         width: 95%;
         /* float: left; */
-        left: 53%;
+        left: 50%;
     }
 
     .org {
@@ -867,15 +872,15 @@ p a:hover {
     }
 
     #center10 {
-        top: 1960%;
+        top: 1830%;
         width: 95%;
-        left: 52%;
+        left: 50%;
     }
 
     #reach {
-        top: 2010%;
+        top: 1880%;
         width: 95%;
-        left: 52%;
+        left: 50%;
     }
 
     .berna {
