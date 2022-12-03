@@ -552,6 +552,15 @@ p a:hover {
         width: 10% !important;
     }
 
+    .raj {
+        height: 40%;
+        padding: 1px 1px;
+    }
+
+    .rao {
+        height: 76%;
+    }
+
     .spon {
         padding-right: 0%;
     }
