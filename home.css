@@ -768,9 +768,9 @@ p a:hover {
 
     #centerpat {
         width: 95%;
-        top: 335%;
+        top: 325% !important;
         left: 50%;
-        height: 210%;
+        height: 180% !important;
     }
     
     #center1 {
@@ -780,7 +780,7 @@ p a:hover {
     }
 
     #center0 {
-        top: 1000%;
+        top: 730% !important;
         left: 53% !important;
         width: 95%;
     }
@@ -809,7 +809,7 @@ p a:hover {
     }
 
     #patrons {
-        top: 530%;
+        top: 560%;
         width: 95%;
         left: 50%;
     }
@@ -837,8 +837,8 @@ p a:hover {
     }
 
     #speaker {
-        top: 1235% !important;
-        width: 100%;
+        top: 2065% !important;
+        width:100% !important;
         left: 50%;
     }
 
@@ -869,8 +869,8 @@ p a:hover {
     }
 
     #pat {
-        top: 1710% !important;
-        width: 95%;
+        top: 1720% !important;
+        width: 80% !important;
         /* float: left; */
         left: 50%;
     }
