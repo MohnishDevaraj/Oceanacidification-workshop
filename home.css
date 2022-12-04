@@ -596,7 +596,7 @@ p a:hover {
     }
 
     #center0 {
-        top: 700% !important;
+        top: 700%;
         left: 50%;
         width: 80%;
     }
@@ -637,7 +637,7 @@ p a:hover {
     }
 
     #center0 {
-        top: 980% !important;
+        top: 980%;
         width: 95%;
         left: 50%;
     }
@@ -767,22 +767,22 @@ p a:hover {
     }
 
     #centerpat {
-        width: 80%;
+        width: 50%;
         top: 330%;
         left: 50%;
-        height: 175%;
+        height: 120%;
     }
     
     #center1 {
         width: 80%;
         left: 50%;
-        top: 990%;
+        top: 1210%;
     }
 
     #center0 {
-        top: 730%;
-        left: 53% !important;
-        width: 95%;
+        top: 500%;
+        left: 50%;
+        width: 80%;
     }
 
     .left {
@@ -803,31 +803,31 @@ p a:hover {
 
     #center2 {
         top: 170%;
-        width: 95%;
+        width: 80%;
         left: 50%;
         background-size: cover;
     }
 
     #patrons {
-        top: 550%;
-        width: 80%;
+        top: 650%;
+        width: 50%;
         left: 50%;
     }
 
     #center3 {
-        top: 880%;
+        top: 1100%;
         width: 80%;
         left: 50%;
     }
 
     #center0 {
-        top: 750%;
+        top: 980%;
         width: 80%;
-        left: 50% !important;
+        left: 50%;
     }
 
     #workshop {
-        top: 1090%;
+        top: 1320%;
         width: 80%;
         left: 50%;
     }
@@ -837,18 +837,18 @@ p a:hover {
     }
 
     #speaker {
-        top: 1340%;
-        width: 80%;
+        top: 1750%;
+        width: 50%;
         left: 50%;
     }
 
     #expout {
-        top: 1740%;
+        top: 2350%;
         width: 80%;
     }
 
     #details {
-        top: 1600%;
+        top: 2200%;
         width: 80%;
         text-align: left !important; 
         left: 50%;
@@ -859,17 +859,17 @@ p a:hover {
     }
 
     #exp {
-        top: 1690%;
+        top: 2300%;
         width: 80%;
     }
 
     #reg {
-        top: 1790%;
+        top: 2400%;
         width: 80%;
     }
 
     #pat {
-        top: 1900%;
+        top: 2500%;
         width: 80% !important;
         /* float: left; */
         left: 50%;
@@ -885,13 +885,13 @@ p a:hover {
     }
 
     #center10 {
-        top: 2020%;
+        top: 2630%;
         width: 80%;
         left: 50%;
     }
 
     #reach {
-        top: 2070%;
+        top: 2680%;
         width: 80%;
         /* height: 10%; */
         left: 50%;
