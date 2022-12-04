@@ -653,7 +653,7 @@ p a:hover {
     }
 
     #speaker {
-        top: 1255%;
+        top: 1055% !important;
         width: 100%;
         left: 52%;
     }
@@ -730,7 +730,7 @@ p a:hover {
     }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (max-width: 720px) {
     .imglog {
         width: 10% !important;
     }
@@ -770,7 +770,7 @@ p a:hover {
         width: 95%;
         top: 325% !important;
         left: 50%;
-        height: 180% !important;
+        height: 0% !important;
     }
     
     #center1 {
@@ -892,6 +892,190 @@ p a:hover {
 
     #reach {
         top: 1880%;
+        width: 95%;
+        left: 50%;
+    }
+
+    .berna {
+        display: block;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        width: 50%;
+        height: 77%;
+    }
+
+    .local h4{
+        padding-top: 50%;
+    }
+
+    .adv {
+        float: left;
+        padding-left: 0%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .imglog {
+        width: 10% !important;
+    }
+    
+    img {
+        /* height: 200px; */
+        width: 100% !important;
+    }
+
+    .raj {
+        height: 58.6%;
+        padding: 1px 1px;
+    }
+    
+    .down {
+        width: 10% !important;
+    }
+
+    .spon {
+        padding-right: 0%;
+    }
+
+    .head {
+        padding-left: 5% !important;
+    }
+
+    .workshop {
+        padding-left: 60% !important;
+    }
+
+    .logo {
+        width: 25% !important; 
+        padding-right: 5% !important;
+    }
+
+    #centerpat {
+        width: 95%;
+        top: 225% !important;
+        left: 50%;
+        height: 100% !important;
+    }
+    
+    #center1 {
+        width: 95%;
+        left: 50%;
+        top: 560% !important;
+    }
+
+    #center0 {
+        top: 730% !important;
+        left: 53% !important;
+        width: 95%;
+    }
+
+    .left {
+        width: 50%;
+        margin-left: 1px;
+        font-size: 14px;
+    }
+
+    .right {
+        width: 50%; 
+        margin-left: 0.1rem;
+        font-size: 14px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    #center2 {
+        top: 140% !important;
+        width: 100%;
+        left: 50%;
+        background-size: cover;
+    }
+
+    #patrons {
+        top: 340%;
+        width: 95%;
+        left: 50%;
+    }
+
+    #center3 {
+        top: 500% !important;
+        width: 100%;
+        left: 50%;
+    }
+
+    #center0 {
+        top: 430% !important;
+        width: 95%;
+        left: 50% !important;
+    }
+
+    #workshop {
+        top: 620% !important;
+        width: 95%;
+        left: 50%;
+    }
+
+    .topics li {
+        text-align: left !important;
+    }
+
+    #speaker {
+        top: 715% !important;
+        width:100% !important;
+        left: 50%;
+    }
+
+    #expout {
+        top: 890%;
+        width: 95%;
+    }
+
+    #details {
+        top: 820%;
+        width: 95%;
+        text-align: left !important; 
+        left: 50%;
+    }
+
+    #details h4 {
+        text-align: center;
+    }
+
+    #exp {
+        top: 865% !important;
+        width: 95%;
+    }
+
+    #reg {
+        top: 910%;
+        width: 95%;
+    }
+
+    #pat {
+        top: 965% !important;
+        width: 80% !important;
+        /* float: left; */
+        left: 50%;
+    }
+
+    .org {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .img1 {
+        height: 165 !important;
+    }
+
+    #center10 {
+        top: 1030%;
+        width: 95%;
+        left: 50%;
+    }
+
+    #reach {
+        top: 1070%;
         width: 95%;
         left: 50%;
     }
