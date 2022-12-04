@@ -584,7 +584,7 @@ p a:hover {
 
     #centerpat {
         width: 95%;
-        top: 320% !important;
+        top: 420% !important;
         left: 50%;
         height: 140% !important;
     }
@@ -592,7 +592,7 @@ p a:hover {
     #center1 {
         width: 95%;
         left: 52%;
-        top: 920%;
+        top: 1450%;
     }
 
     #center0 {
@@ -618,32 +618,32 @@ p a:hover {
     }
 
     #center2 {
-        top: 180%;
+        top: 220%;
         width: 95%;
         left: 51%;
         background-size: cover;
     }
 
     #patrons {
-        top: 520% !important;
+        top: 670% !important;
         width: 95%;
         left: 52%;
     }
 
     #center3 {
-        top: 795%;
+        top: 1260%;
         width: 95%;
         left: 52%;
     }
 
     #center0 {
-        top: 675% !important;
+        top: 1100% !important;
         width: 95%;
         left: 52%;
     }
 
     #workshop {
-        top: 1030%;
+        top: 1600%;
         width: 95%;
         left: 52%;
     }
@@ -653,18 +653,18 @@ p a:hover {
     }
 
     #speaker {
-        top: 1265% !important;
-        width: 100%;
-        left: 52%;
+        top: 1900%;
+        width: 95%;
+        left: 50%;
     }
 
     #expout {
-        top: 1650%;
+        top: 2950%;
         width: 95%;
     }
 
     #details {
-        top: 1510%;
+        top: 2810%;
         width: 95%;
         text-align: left !important; 
         left: 52%;
@@ -675,20 +675,20 @@ p a:hover {
     }
 
     #exp {
-        top: 1595%;
+        top: 2900%;
         width: 95%;
     }
 
     #reg {
-        top: 1700%;
+        top: 3000%;
         width: 95%;
     }
 
     #pat {
-        top: 1820%;
+        top: 3120%;
         width: 95%;
         /* float: left; */
-        left: 53%;
+        left: 50%;
     }
 
     .org {
@@ -701,13 +701,13 @@ p a:hover {
     }
 
     #center10 {
-        top: 1960%;
+        top: 3250%;
         width: 95%;
         left: 52%;
     }
 
     #reach {
-        top: 2010%;
+        top: 3300%;
         width: 95%;
         left: 52%;
     }
@@ -838,7 +838,7 @@ p a:hover {
 
     #speaker {
         top: 715% !important;
-        width:100% !important;
+        width: 95% !important;
         left: 50%;
     }
 
