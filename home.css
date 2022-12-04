@@ -782,7 +782,7 @@ p a:hover {
     #center0 {
         top: 500%;
         left: 50%;
-        width: 80%;
+        width: 50% !important;
     }
 
     .left {
