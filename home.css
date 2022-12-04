@@ -837,7 +837,7 @@ p a:hover {
     }
 
     #speaker {
-        top: 670%;
+        top: 700%;
         width: 80%;
         left: 50%;
     }
@@ -848,7 +848,7 @@ p a:hover {
     }
 
     #details {
-        top: 700%;
+        top: 810%;
         width: 95%;
         text-align: left !important; 
         left: 50%;
@@ -859,7 +859,7 @@ p a:hover {
     }
 
     #exp {
-        top: 835%;
+        top: 845%;
         width: 95%;
     }
 
@@ -1026,7 +1026,7 @@ p a:hover {
     }
 
     #speaker {
-        top: 1245% !important;
+        top: 1245%;
         width: 80%;
         left: 50%;
     }
@@ -1037,7 +1037,7 @@ p a:hover {
     }
 
     #details {
-        top: 1430% !important;
+        top: 1430%;
         width: 80%;
         text-align: left !important; 
         left: 50%;
@@ -1215,7 +1215,7 @@ p a:hover {
     }
 
     #speaker {
-        top: 1265% !important;
+        top: 1265%;
         width: 80%;
         left: 50%;
     }
@@ -1226,7 +1226,7 @@ p a:hover {
     }
 
     #details {
-        top: 1440% !important;
+        top: 1440%;
         width: 80%;
         text-align: left !important; 
         left: 50%;
