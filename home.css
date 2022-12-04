@@ -263,13 +263,13 @@ heading {
 }
 
 .org {
-    float: left !important;
+    /* float: left !important; */
     /* margin-top: 20px;  */
     /* padding-left: 19px; */
 }
 
 .org b{
-    float: left;
+    /* float: left; */
 }
 
 #some p{
