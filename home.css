@@ -768,15 +768,15 @@ p a:hover {
 
     #centerpat {
         width: 95%;
-        top: 225%;
+        top: 220%;
         left: 50%;
-        height: 100%;
+        height: 80%;
     }
     
     #center1 {
         width: 95%;
         left: 50%;
-        top: 560% !important;
+        top: 540%;
     }
 
     #center0 {
@@ -802,20 +802,20 @@ p a:hover {
     }
 
     #center2 {
-        top: 140% !important;
-        width: 100%;
+        top: 140%;
+        width: 95%;
         left: 50%;
         background-size: cover;
     }
 
     #patrons {
-        top: 340%;
-        width: 95%;
+        top: 330%;
+        width: 80%;
         left: 50%;
     }
 
     #center3 {
-        top: 500% !important;
+        top: 490%;
         width: 100%;
         left: 50%;
     }
@@ -827,7 +827,7 @@ p a:hover {
     }
 
     #workshop {
-        top: 620% !important;
+        top: 590%;
         width: 95%;
         left: 50%;
     }
@@ -837,18 +837,18 @@ p a:hover {
     }
 
     #speaker {
-        top: 715% !important;
-        width: 95% !important;
+        top: 670%;
+        width: 80%;
         left: 50%;
     }
 
     #expout {
-        top: 890%;
+        top: 870%;
         width: 95%;
     }
 
     #details {
-        top: 820%;
+        top: 790%;
         width: 95%;
         text-align: left !important; 
         left: 50%;
@@ -859,17 +859,17 @@ p a:hover {
     }
 
     #exp {
-        top: 865% !important;
+        top: 835%;
         width: 95%;
     }
 
     #reg {
-        top: 910%;
+        top: 900%;
         width: 95%;
     }
 
     #pat {
-        top: 965% !important;
+        top: 960%;
         width: 80% !important;
         /* float: left; */
         left: 50%;
@@ -885,14 +885,15 @@ p a:hover {
     }
 
     #center10 {
-        top: 1030%;
+        top: 1020%;
         width: 95%;
         left: 50%;
     }
 
     #reach {
-        top: 1070%;
-        width: 95%;
+        top: 1050%;
+        width: 80%;
+        height: 10%;
         left: 50%;
     }
 
