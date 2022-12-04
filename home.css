@@ -653,18 +653,18 @@ p a:hover {
     }
 
     #speaker {
-        top: 1580%;
-        width: 95%;
+        top: 1780%;
+        width: 80%;
         left: 50%;
     }
 
     #expout {
-        top: 1980%;
+        top: 2360%;
         width: 95%;
     }
 
     #details {
-        top: 1830%;
+        top: 2220%;
         width: 95%;
         text-align: left; 
         left: 50%;
@@ -675,17 +675,17 @@ p a:hover {
     }
 
     #exp {
-        top: 1930%;
+        top: 2310%;
         width: 95%;
     }
 
     #reg {
-        top: 2040%;
+        top: 2410%;
         width: 95%;
     }
 
     #pat {
-        top: 2160%;
+        top: 2530%;
         width: 95%;
         /* float: left; */
         left: 50%;
@@ -701,15 +701,15 @@ p a:hover {
     }
 
     #center10 {
-        top: 2290%;
+        top: 2660%;
         width: 95%;
         left: 50%;
     }
 
     #reach {
-        top: 2340%;
+        top: 2720%;
         width: 95%;
-        left: 52%;
+        left: 50%;
     }
 
     .berna {
