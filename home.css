@@ -262,15 +262,15 @@ heading {
     width: 600px;
 }
 
-.org {
+/* .org {
     /* float: left !important; */
     /* margin-top: 20px;  */
-    /* padding-left: 19px; */
+    /* padding-left: 19px; 
 }
 
 .org b{
-    /* float: left; */
-}
+    /* float: left; 
+} */
 
 #some p{
     float: left !important;
