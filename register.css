@@ -215,7 +215,9 @@ form{
 
 .link {
   position: relative;
-  left: 300px;
+  /* left: 300px; */
+  /* right: -300px; */
+  margin-left: 300px;
   top: -70px;
   color: white;
   text-decoration: none;
@@ -233,17 +235,18 @@ form{
 .ack {
   position: relative;
   color: white;
-  left: 80px;
+  margin-left: 50px;
   top: -24px;
 }
 
 .check {
-  margin-left:0px;
+  margin-left: 30px;
+  /* margin-right: 40px !important; */
   margin-top:30px;
-  width: 125px;
+  /* width: 125px; */
   color:white;
-  font-size:18px;
-  font-weight:700; 
+  /* font-size:18px; */
+  /* font-weight:700;  */
 }
 
 .code {
