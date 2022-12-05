@@ -213,6 +213,39 @@ form{
   color:#555;
 }
 
+.link {
+  position: relative;
+  left: 300px;
+  top: -70px;
+  color: white;
+  text-decoration: none;
+}
+
+.link1 {
+  color: white;
+  text-decoration: none;
+}
+
+.link1:hover {
+  color: lightblue;
+}
+
+.ack {
+  position: relative;
+  color: white;
+  left: 80px;
+  top: -24px;
+}
+
+.check {
+  margin-left:0px;
+  margin-top:30px;
+  width: 125px;
+  color:white;
+  font-size:18px;
+  font-weight:700; 
+}
+
 .code {
   /* position:relative;
   left:200px;
