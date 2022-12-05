@@ -483,4 +483,14 @@ input[type=number] {
   body {
     font-family: cursive;
   }
+
+  .ref {
+    position:relative;
+    left:200px;
+    top:-45px;
+    line-height:40px;
+    width:485px;
+    border-radius:6px;
+    padding:0 22px;
+  }
 }
