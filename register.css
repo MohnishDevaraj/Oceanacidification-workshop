@@ -479,4 +479,8 @@ input[type=number] {
   header {
     width: 800px;
   }
+
+  body {
+    font-family: cursive;
+  }
 }
