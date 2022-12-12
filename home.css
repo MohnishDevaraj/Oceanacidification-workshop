@@ -67,6 +67,14 @@ heading {
     width: 50%;
 }
 
+.mario {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 65%;
+}
+
 .berna {
     display: block;
     margin-left: auto;
@@ -312,8 +320,9 @@ i {
     display: inline-block;
     border: 1px solid #03A89E;
     justify-content: space-between;
+    /* margin-left: 9rem; */
     padding: 1rem 1rem;
-    width: 80%;
+    /* width: 80%; */
     /* margin-left: 10px; */
     /* vertical-align: middle; */
 }
@@ -346,15 +355,6 @@ i {
     /* margin-top: 10px; */
     width: 80%;
     margin-left: 2rem;
-    display: inline-block;
-    border: 1px solid #03A89E;
-    /* padding: 1rem 1rem; */
-}
-
-.mario {
-    margin-top: 10px;
-    width: 80%;
-    /* margin-left: 2rem; */
     display: inline-block;
     border: 1px solid #03A89E;
     /* padding: 1rem 1rem; */
