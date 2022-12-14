@@ -106,6 +106,12 @@ heading {
     padding-left: 5px; 
 }
 
+.imglog1 {
+    display: block;
+    width: 5%;
+    padding-left: 40px;
+}
+
 .logo {
     /* display: block; */
     width: 7%;
