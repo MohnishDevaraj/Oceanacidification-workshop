@@ -276,15 +276,15 @@ heading {
     width: 600px;
 }
 
-/* .org {
-    /* float: left !important; */
-    /* margin-top: 20px;  */
-    /* padding-left: 19px; 
+.org {
+    float: left !important;
+    margin-top: 20px; 
+    padding-left: 19px; 
 }
 
 .org b{
-    /* float: left; 
-} */
+    float: left; 
+} 
 
 #some p{
     float: left !important;
@@ -393,7 +393,7 @@ p a:hover {
 
 .workshop {
     float: left; 
-    padding-left: 1240px;
+    padding-left: 1040px;
 }
 
 .reg {
@@ -552,6 +552,11 @@ p a:hover {
     .imglog {
         width: 10% !important;
     }
+
+    .imglog1 {
+        width: 20% !important;
+        /* height: 50%; */
+    }
     
     img {
         /* height: 200px; */
@@ -580,7 +585,7 @@ p a:hover {
     }
 
     .workshop {
-        padding-left: 40% !important;
+        padding-left: 30% !important;
     }
 
     .logo {
@@ -740,6 +745,11 @@ p a:hover {
     .imglog {
         width: 10% !important;
     }
+
+    .imglog1 {
+        width: 20% !important;
+        /* height: 50%; */
+    }
     
     img {
         /* height: 200px; */
@@ -764,7 +774,7 @@ p a:hover {
     }
 
     .workshop {
-        padding-left: 60%;
+        padding-left: 45%;
     }
 
     .logo {
@@ -925,6 +935,11 @@ p a:hover {
     .imglog {
         width: 8% !important;
     }
+
+    .imglog1 {
+        width: 20% !important;
+        /* height: 50%; */
+    }
     
     img {
         /* height: 200px; */
@@ -953,7 +968,7 @@ p a:hover {
     }
 
     .workshop {
-        padding-left: 71%;
+        padding-left: 61%;
     }
 
     .logo {
@@ -1113,6 +1128,11 @@ p a:hover {
 {
     .imglog {
         width: 6% !important;
+    }
+
+    .imglog1 {
+        width: 20% !important;
+        /* height: 50%; */
     }
     
     img {
