@@ -141,6 +141,21 @@ heading {
     /* display: flex; */
 }
 
+.centers{
+    position: absolute;
+    padding-top: 0px;
+    /* top: 130%;
+    left: 50%; */
+    transform: translate(-50%, -50%);
+    /* width: 800px; */
+    background: rgba(255, 255, 255, 0.695); 
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px rgba(0,0,0,0.5);
+    padding: 2rem 1rem;
+    text-align: center;
+    /* display: flex; */
+}
+
 #center0 {
     top: 345%;
     left: 50%;
